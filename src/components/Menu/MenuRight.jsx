@@ -1,9 +1,10 @@
 import React from 'react'
+import MenuClose from './MenuClose'
 
-const MenuRight = () => {
+const MenuRight = (props) => {
   return (
-    <div className='w-1/3 h-full bg-zinc-400'>
-        
+    <div className='w-1/3 h-full '>
+        <MenuClose menuOpen={props.menuOpen} setmenuOpen={props.setmenuOpen}/>
     </div>
   )
 }

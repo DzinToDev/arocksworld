@@ -4,7 +4,7 @@ import CenterText from "../center/CenterText";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 
-const Home = () => {
+const Home = (props) => {
   const homeRef = useRef(null);
 
   const pageRef = useRef(null);
@@ -34,7 +34,7 @@ const Home = () => {
         ref={pageRef}
         className="w-full h-screen text-zinc-100 bg-[url(https://images.prismic.io/arock-website-2023/d4147892-cb03-4582-af32-326bb109803f_AROCK-_1502.jpg?fm=webp&q=100&fit=crop)] bg-cover bg-center relative"
       >
-        <NavBar />
+        <NavBar menuOpen={props.menuOpen} setmenuOpen={props.setmenuOpen} />
         <CenterText />
       </div>
     </div>

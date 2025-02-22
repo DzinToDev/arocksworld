@@ -16,3 +16,7 @@
   font-family: u8;
   src: url(./assets/fonts/u8.woff2);
 }
+
+span {
+  display: inline-block;
+}

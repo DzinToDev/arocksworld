@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
-const NavMenu = () => {
+const NavMenu = (props) => {
+  const menuBarOpen = () => {
+
+    props.setmenuOpen(true);
+    console.log(props.menuOpen);
+  };
+
   return (
-    <div className='text-[10px] font-["a4"] uppercase'>Menu</div>
-  )
-}
+    <div onClick={menuBarOpen} className='text-[10px] font-["a4"] uppercase cursor-pointer'>
+      Menu
+    </div>
+  );
+};
 
-export default NavMenu
+export default NavMenu;

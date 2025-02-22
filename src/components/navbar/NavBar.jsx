@@ -2,11 +2,11 @@ import React from "react";
 import NavLogo from "./NavLogo";
 import NavMenu from "./NavMenu";
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <div className="flex items-center justify-between w-full px-7 py-4">
       <NavLogo />
-      <NavMenu />
+      <NavMenu menuOpen={props.menuOpen} setmenuOpen={props.setmenuOpen} />
     </div>
   );
 };
