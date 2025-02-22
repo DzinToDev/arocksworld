@@ -28,7 +28,7 @@ const Home = () => {
     <div className="h-screen relative">
       <div
         ref={homeRef}
-        className="h-screen bg-[#333] w-full z-10 absolute"
+        className="h-screen bg-[#1A1A1A] w-full z-10 absolute"
       ></div>
       <div
         ref={pageRef}
