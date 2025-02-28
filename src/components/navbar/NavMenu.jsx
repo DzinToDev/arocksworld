@@ -4,7 +4,7 @@ const NavMenu = (props) => {
   const menuBarOpen = () => {
 
     props.setmenuOpen(true);
-    console.log(props.menuOpen);
+    // console.log(props.menuOpen);
   };
 
   return (
