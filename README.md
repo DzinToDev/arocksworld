@@ -13,7 +13,7 @@ Big thanks to **Sarthak Sharma bhaiya** for the guidance! 🙌
 - GSAP animations for smooth transitions  
 - Framer Motion effects for interactions  
 - Tilt.js for 3D hover effects  
-- Responsive and modern UI  
+
 
 ## 🔗 Live Demo  
 [Live Link Here](https://arocksworld.vercel.app/)  
